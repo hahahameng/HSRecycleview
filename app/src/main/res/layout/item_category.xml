@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/item_layout"
+    android:descendantFocusability="blocksDescendants"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/tv_column"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:singleLine="true"
+        android:ellipsize="middle"
+        android:padding="10dp"
+        android:text="栏目" />
+    <View
+        android:layout_below="@id/tv_column"
+        android:layout_width="match_parent"
+        android:background="@color/colorAccent"
+        android:layout_height="1px"/>
+
+</RelativeLayout>
